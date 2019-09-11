@@ -49,7 +49,7 @@ app.get('/hackernews_articles/:id', (req, res) => {
 });
 
 app.get('/craigslist', (req, res) => {
-  res.json(craigslist.article);
+  res.json(craigslist);
 });
 
 const mode = isDevMode ? 'DevMode' : 'ProductionMode';
