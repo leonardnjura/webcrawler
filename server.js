@@ -3,6 +3,7 @@ const app = express();
 
 const craigslist = require('./data/craigslist.json');
 const hackernews = require('./data/hackernews.json');
+const hackernews_articles = require('./data/hackernewsArticles.json');
 
 const { NODE_ENV } = process.env;
 const isDevMode = NODE_ENV === 'development';
@@ -20,6 +21,7 @@ if (isProductionMode) {
 
 const featured = {
   hackernews: `${host}/hackernews`,
+  hackernews_articles: `${host}/hackernews_articles`,
   craigslist: `${host}/craigslist`
 };
 
@@ -30,8 +32,24 @@ app.get('/', (req, res) => {
 app.get('/hackernews', (req, res) => {
   res.json(hackernews);
 });
+app.get('/hackernews/:id', (req, res) => {
+  const id = parseInt(req.params.id, 10);
+  var data = hackernews_articles.hackernewsArticles;
+  var wantedArticle = data.filter(i => i.id == id);
+  res.json(wantedArticle);
+});
+app.get('/hackernews_articles', (req, res) => {
+  res.json(hackernews_articles);
+});
+app.get('/hackernews_articles/:id', (req, res) => {
+  const id = parseInt(req.params.id, 10);
+  var data = hackernews_articles.hackernewsArticles;
+  var wantedArticle = data.filter(i => i.id == id);
+  res.json(wantedArticle);
+});
+
 app.get('/craigslist', (req, res) => {
-  res.json(craigslist);
+  res.json(craigslist.article);
 });
 
 const mode = isDevMode ? 'DevMode' : 'ProductionMode';
