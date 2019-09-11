@@ -1,55 +1,96 @@
-book review: cult of the dead cow
-https://www.spacerogue.net/wordpress/?p=723
-TL, DR: It’s a good story, not a history book. If you are looking for a good story with a message, read it. If you are looking for a nuanced description of what was happening in history, look elsewhere.
-2019.06.03
+1
+ransomware attack locks down souderton area school district systems
+https://cyware.com/news/ransomware-attack-locks-down-souderton-area-school-district-systems-17001e5d
+https://cystory-images.s3.amazonaws.com/shutterstock_660345646.jpg
+Sep 11, 2019
 
-revisiting l0pht testimony – 20yrs later
-https://www.spacerogue.net/wordpress/?p=709
-Here is a copy of my introductory statement from the May 22, 2018 briefing where L0pht revisited its historic Senate testimony of twenty years earlier. (supporting links at the end.)
-2018.05.23
+2
+adobe’s patch tuesday fixes code execution bugs and dll flaw in flash player
+https://cyware.com/news/adobes-patch-tuesday-fixes-code-execution-bugs-and-dll-flaw-in-flash-player-3ed4a481
+https://cystory-images.s3.amazonaws.com/shutterstock_189107864.jpg
+Sep 11, 2019
 
-a hacker at the polls
-https://www.spacerogue.net/wordpress/?p=681
-On the second Tuesday in November I burned a vacation day, woke up at five in the morning and drove to a church down the street from where I live. I sat at a long table for thirteen hours and looked up names in a book. While I wasn’t at the church to pray I still felt as though I was cleansing my soul in some way. Over the years for various reasons I had amassed what I felt was extremely high level of personal voter debt and I felt this was a way to at least begin to pay some of it back.
-2017.11.27
+3
+intel server-grade cpus plagued by new netcat vulnerability
+https://cyware.com/news/intel-server-grade-cpus-plagued-by-new-netcat-vulnerability-5fc28761
+https://cystory-images.s3.amazonaws.com/shutterstock_259506596.jpg
+Sep 11, 2019
 
-the continuing evolution of cyber
-https://www.spacerogue.net/wordpress/?p=655
-I don’t think there is another word in the English language that provokes as much of an emotional response from information security professionals as much as ‘cyber’. In fact, half of the people who just read that last sentence are like yeah, but cyber is not a word it’s a prefix. (The other half probably just started giggling.)  Unfortunately for them 	Merriam-Webster and the Oxford English Dictionary have both recently listed cyber as a stand-alone word as an adjective with the definition ‘of, relating to, or involving computers or computer networks’ which to me is an extremely broad definition. The Cambridge, Macmillan and Longman dictionaries all still lists cyber as a prefix but I am sure they will upgrade it to full word status soon. Can official use as a noun, the cyber, be far behind?
-2017.04.26
+4
+hackers infiltrate wakulla county school district computers
+https://cyware.com/news/hackers-infiltrate-wakulla-county-school-district-computers-3d329f09
+https://cystory-images.s3.amazonaws.com/shutterstock_549432346.jpg
+Sep 11, 2019
 
-l0pht t-shirt quilt
-https://www.spacerogue.net/wordpress/?p=648
-	It is hard to work in Infosec for very long and not amass a huge number of T-shirts. Vendors give them away like candy thinking that somehow a free t-shirt is going to make you spend thousands of dollars on their blinky light solution versus their competitors blinky light solution. However, some t-shirts tend to have a great value than others. Those shirts emblazoned with logos from projects or companies that you actually worked with tend to have the most value. Then the question becomes what do you do with them?
-	For me, for the last twenty years or so, my most valuable t-shirts lived in a plastic box under my bed. I never wore them, because, well, I don’t wear t-shirts much and these were a little too valuable to me to risk them fading due to over use. And so they stayed in the box, seldom seen.
-	A few years ago I ran across a company offering to make a quilt out of old T-shirts. I thought this was a great idea! And the price was pretty inexpensive to. I almost sent my shirts in immediately but for some reason I hesitated. I started Googling and found there is more than one company making quilts out of T-shirts and way more than one way to do it. I knew nothing about fabric design or quilting, backing material, batting, stitch length, binding, etc.. Evidently there is a quite a bit that goes into a quilt and I only had one copy of many of my T-shirts. I didn’t want to risk going with a low cost option simply because it was low cost.
-	In the end I chose Too Cool T-Shirt Quilts. I boxed up my shirts and sent them in. They emailed me as soon as they got the box and asked me what sort of options I waned, how big of a border, any designs in the quilting, special positioning of certain shirts, etc.. 2 weeks later they sent me these photos.
-2017.03.20
+5
+operation rewired: 281 suspects arrested in business email compromise crackdown
+https://cyware.com/news/operation-rewired-281-suspects-arrested-in-business-email-compromise-crackdown-3ee73be4
+https://cystory-images.s3.amazonaws.com/shutterstock_254229670.jpg
+Sep 11, 2019
 
-southwest password ad is both good and bad.
-https://www.spacerogue.net/wordpress/?p=635
-Southwest Airlines recently aired a TV ad in their “Wanna Get Away” series that features some serious password blunders. In the ad a General is asked for his password so that they “can lock down the system” which he then reluctantly provides. The password, “ihatemyjob1”, is rather embarrassing and hilarity ensures. Lets watch…
-2016.10.17
+6
+microsoft’s september 2019 patch tuesday fixes 79 vulnerabilities
+https://cyware.com/news/microsofts-september-2019-patch-tuesday-fixes-79-vulnerabilities-59276150
+https://cystory-images.s3.amazonaws.com/shutterstock_370707185.jpg
+Sep 11, 2019
 
-tilting it sideways
-https://www.spacerogue.net/wordpress/?p=625
-Trying to track down the origins of an Internet meme can be an almost fruitless endeavor. Other than giving credit to its originator and perhaps giving them a few minutes of Internet fame there really isn’t a lot at stake by determining who was the kid in the success.gif or what meme Laina Morris is responsible for. Finding the origin of a story involving the breach of critical infrastructure however, can be rather important.
-2016.09.15
+7
+lokibot makes comeback in malspam campaign targeting us manufacturing company
+https://cyware.com/news/lokibot-makes-comeback-in-malspam-campaign-targeting-us-manufacturing-company-cc5fab0b/
+https://cystory-images.s3.amazonaws.com/shutterstock_127762841.jpg
+Sep 11, 2019
 
-transcription of l0pht testimony
-https://www.spacerogue.net/wordpress/?p=602
-Transcription of the YouTube Video:
-Hackers Testifying at the United States Senate, May 19, 1998 (L0pht Heavy Industries)
-https://www.youtube.com/watch?v=VVJldn_MmMY
-2015.11.02
+8
+vulnerable verizon wireless systems exposes 2 million customer contracts
+https://cyware.com/news/vulnerable-verizon-wireless-systems-exposes-2-million-customer-contracts-8690543f
+https://cystory-images.s3.amazonaws.com/shutterstock_486160936.jpg
+Sep 11, 2019
 
-i watched csi:cyber so you don’t have to.
-https://www.spacerogue.net/wordpress/?p=554
-CSI has a proven formula for making popular TV shows. Unfortunately that history does not include accurate TV shows. When it comes to tech and things ‘cyber’ this is probably the preeminent example of CSI being bad and wrong at the same time.  I thought there was no way they could top this, I was wrong.
-2015.03.05
+9
+over 1 million im​perial dabman internet radios likely under hijack threat
+https://cyware.com/news/over-1-million-imperial-dabman-internet-radios-likely-under-hijack-threat-8eeafa3a/
+https://cystory-images.s3.amazonaws.com/iStock_73937957_SMALL.jpg
+Sep 10, 2019
 
-in the beginning there was full disclosure
-https://www.spacerogue.net/wordpress/?p=536
-Two of the largest companies in the world are bickering with each other about how best to protect users. I won’t get into just how historically hypocritical this is for both Microsoft and Google or how childish it makes them both look but it brings up a debate that has been raging in security circles for over a hundred years starting way back in the 1890s with the release of locksmithing information. An organization I was involved with, L0pht Heavy Industries, raised the debate again in the 1990’s as security researchers started finding vulnerabilities in products. 
-2015.01.12
+10
+new psixbot variant spotted with sextortion module and other updates
+https://cyware.com/news/new-psixbot-variant-spotted-with-sextortion-module-and-other-updates-bcaeeb53
+https://cystory-images.s3.amazonaws.com/shutterstock_289929257.jpg
+Sep 10, 2019
+
+11
+new instance of chrome patch gapping reported
+https://cyware.com/news/new-instance-of-chrome-patch-gapping-reported-b03da19b
+https://cystory-images.s3.amazonaws.com/shutterstock_315184076_2.jpg
+Sep 10, 2019
+
+12
+get app exposes personal information of nearly 50,000 university students
+https://cyware.com/news/get-app-exposes-personal-information-of-nearly-50000-university-students-87d60637
+https://cystory-images.s3.amazonaws.com/shutterstock_326771273.jpg
+Sep 10, 2019
+
+13
+chinese cyber-espionage group thrip targets organizations in south east asia
+https://cyware.com/news/chinese-cyber-espionage-group-thrip-targets-organizations-in-south-east-asia-10316c8a
+https://cystory-images.s3.amazonaws.com/iStock-476767919.jpg
+Sep 10, 2019
+
+14
+data of over 4 million israeli citizens impacted due to security lapse on likud party’s campaign website
+https://cyware.com/news/data-of-over-4-million-israeli-citizens-impacted-due-to-security-lapse-on-likud-partys-campaign-website-5717d380
+https://cystory-images.s3.amazonaws.com/iStock-526547896.jpg
+Sep 10, 2019
+
+15
+trail’s end exposes personal information of boy scouts
+https://cyware.com/news/trails-end-exposes-personal-information-of-boy-scouts-d694fb8d
+https://cystory-images.s3.amazonaws.com/shutterstock_736338352.jpg
+Sep 10, 2019
+
+16
+phishers leverage captcha code to bypass email security gateway
+https://cyware.com/news/phishers-leverage-captcha-code-to-bypass-email-security-gateway-6781facb
+https://cystory-images.s3.amazonaws.com/shutterstock_508721131.jpg
+Sep 10, 2019
 

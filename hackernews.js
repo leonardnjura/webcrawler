@@ -2,7 +2,9 @@ const request = require('request');
 const cheerio = require('cheerio');
 const fs = require('fs');
 
-let hackerNewsUrl = `http://www.spacerogue.net/wordpress`;
+let hackerNewsUrl = null;
+let page = 1;
+hackerNewsUrl = `https://cyware.com/hacker-news?p=${page}`;
 request(hackerNewsUrl, (error, response, html) => {
   if (!error && response.statusCode == 200) {
     // console.log(html)
@@ -18,11 +20,11 @@ request(hackerNewsUrl, (error, response, html) => {
     let output = null;
 
     // ONE ITEM
-    pageHeading = $('#branding').html();
-    pageHeading = $('#branding').text();
-    pageHeading = $('#branding')
-      .find('h1')
-      .text();
+    pageHeading = $('.banner-heading').html();
+    pageHeading = $('.banner-heading').text();
+    // pageHeading = $('#branding')
+    //   .find('h1')
+    //   .text();
     console.log(pageHeading);
 
     // NOTES:
@@ -30,27 +32,50 @@ request(hackerNewsUrl, (error, response, html) => {
      * const entryContent = $(element).find('.entry-content').text() => grab all paragraphs
      * .text().replace(/\s\s+/g, '') => replace white space globally
      * .text().replace(/,/, '') => replace comma
+     * Xpath
+     * /html/body/div/table/tbody/tr[2]/td[4]
+     * html > body > div > table > tbody > tr:nth-of-type(2) > td:nth-of-type(4)
+     * div/ul[1]/li[1]
+     * div > ul:nth-of-type(1) > li:nth-of-type(1)
      * */
 
     // LOOP ITEMS..
+    let counter = 1;
     let pageList = []; // list
-    $('.post').each(function(index) {
+    let articleList = []; // list
+
+    $('.post-content').each(function(index) {
       let item = {}; // obj
+      let id = counter++; // my pk
+      let articleLink = $(this)
+        .find('h2 a')
+        .attr('href'); // cleaner for reuse
+      item['id'] = id;
       item['title'] = $(this)
-        .find('h1')
+        .find('h2')
         .text();
-      item['link'] = $(this)
-        .find('h1 a')
-        .attr('href');
+      item['link'] = articleLink
       item['time'] = $(this)
-        .find('time')
-        .text();
-      item['intro'] = $(this)
-        .find('p:first-child')
-        .text(); // grab first paragraph
-      item['article'] = $(this)
-        .find('p')
-        .text(); // grab all paragraphs
+        .find('div > ul:nth-of-type(1) > li:nth-of-type(1)')
+        .text()
+        .replace(/\s\s+/g, '');
+      item['post_image'] = $(this)
+        .find('img')
+        .attr('data-url');
+      generateArticleData(articleLink)
+        .then(data => {
+          scrapeArticleData(data, id);
+          // console.log(articleList);
+          // Write to JSON@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+          const pathToJsonFile = './data/hackernewsArticles.json';
+          fs.writeFileSync(
+            pathToJsonFile,
+            JSON.stringify({ hackernewsArticles: articleList }, null, '\t')
+          );
+          console.log('Updated articles list, see ', pathToJsonFile);
+          // Writen to JSON@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        })
+        .catch(error => console.log(error));
 
       pageList.push(item);
     });
@@ -61,13 +86,14 @@ request(hackerNewsUrl, (error, response, html) => {
     // LINES..
     const writeTxt = fs.createWriteStream('./data/hackernews.txt');
     for (item in pageList) {
+      const id = pageList[item].id;
       const title = pageList[item].title.toLowerCase();
       const link = pageList[item].link;
       const time = pageList[item].time;
-      const intro = pageList[item].intro;
-      // console.log(`${title}\n${link}\n${time}\n${intro}\n`)
+      const post_image = pageList[item].post_image;
+      // console.log(`${id}\n${title}\n${link}\n${time}\n${post_image}\n`)
       // Write to Txt File
-      writeTxt.write(`${title}\n${link}\n${intro}\n${time}\n\n`);
+      writeTxt.write(`${id}\n${title}\n${link}\n${post_image}\n${time}\n\n`);
     }
 
     // Write to JSON@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -80,5 +106,36 @@ request(hackerNewsUrl, (error, response, html) => {
     // Writen to JSON@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
     console.log('Scraping done..');
+
+
+    function generateArticleData(articleUrl) {
+      // SCRAPE EACH ARTICLE PAGE, grab async list in console, :)
+      return new Promise((resolve, reject) => {
+        request(articleUrl, (error, res, htmlData) => {
+          if (error) reject(error);
+          else resolve(htmlData);
+        });
+      });
+    }
+
+    function scrapeArticleData(html, id) {
+      const $ = cheerio.load(html);
+
+      let headline = $('.post-title')
+        .text()
+        .replace(/\s\s+/g, '');
+      let article = $('.journal-content')
+        .text()
+        .replace(/\s\s+/g, '');
+
+      // console.log({ headline, article });
+      let articleItem = {}; // obj
+      articleItem['id'] = id;
+      articleItem['headline'] = headline;
+      articleItem['article'] = article;
+
+      console.log(`working on article ${id}..`);
+      articleList.push(articleItem);
+    }
   }
 });
