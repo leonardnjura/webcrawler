@@ -1,18 +1,235 @@
 {
 	"craigslist": [
 		{
-			"date": "Aug 25",
-			"datetime": "2019-08-25 17:19",
-			"hood": "Williamsburg",
-			"link": "https://newyork.craigslist.org/brk/cpg/d/brooklyn-helped-needed-with-seos/6964533229.html",
-			"title": "Helped Needed with SEOs"
+			"date": "Sep 10",
+			"datetime": "2019-09-10 15:55",
+			"hood": "Nairobi",
+			"link": "https://kenya.craigslist.org/hss/d/house-rent/6975415486.html",
+			"title": "House Rent"
 		},
 		{
-			"date": "Aug 25",
-			"datetime": "2019-08-25 11:11",
+			"date": "Sep 10",
+			"datetime": "2019-09-10 09:25",
+			"hood": "Nairobi",
+			"link": "https://kenya.craigslist.org/hss/d/comfortable-abode/6975338600.html",
+			"title": "Comfortable Abode"
+		},
+		{
+			"date": "Sep 10",
+			"datetime": "2019-09-10 08:15",
+			"hood": "Nairobi",
+			"link": "https://kenya.craigslist.org/hss/d/male-company/6975323032.html",
+			"title": "Male company"
+		},
+		{
+			"date": "Sep  5",
+			"datetime": "2019-09-05 13:34",
+			"hood": "Nairobi",
+			"link": "https://kenya.craigslist.org/hss/d/maid-job/6971794659.html",
+			"title": "Maid job"
+		},
+		{
+			"date": "Sep  4",
+			"datetime": "2019-09-04 00:01",
+			"hood": "Mombasa CBD",
+			"link": "https://kenya.craigslist.org/hss/d/ladies-only/6970692138.html",
+			"title": "Ladies Only"
+		},
+		{
+			"date": "Sep  3",
+			"datetime": "2019-09-03 21:46",
+			"hood": "Utawala",
+			"link": "https://kenya.craigslist.org/hss/d/cleaning-lady/6970624102.html",
+			"title": "Cleaning lady"
+		},
+		{
+			"date": "Sep  3",
+			"datetime": "2019-09-03 13:45",
+			"hood": "kasarani",
+			"link": "https://kenya.craigslist.org/hss/d/netflix-and-chillm4w/6970263691.html",
+			"title": "Netflix and chill{M4W}"
+		},
+		{
+			"date": "Aug 31",
+			"datetime": "2019-08-31 16:21",
+			"hood": "Nairobi",
+			"link": "https://kenya.craigslist.org/hss/d/good-massage-and-some-sex-m4w/6968467387.html",
+			"title": "Good Massage and some sex (M4W)"
+		},
+		{
+			"date": "Aug 31",
+			"datetime": "2019-08-31 09:58",
+			"hood": "Thika Rd.",
+			"link": "https://kenya.craigslist.org/hss/d/saturday-morning-fun/6968398479.html",
+			"title": "SATURDAY MORNING FUN"
+		},
+		{
+			"date": "Aug 29",
+			"datetime": "2019-08-29 07:41",
 			"hood": "",
-			"link": "https://newjersey.craigslist.org/cpg/d/north-bergen-addwords-expert/6964270780.html",
-			"title": "💰💰💰 ADDWORDS EXPERT 💸💸💸"
+			"link": "https://kenya.craigslist.org/hss/d/looking-for-an-oral-queen/6966975467.html",
+			"title": "Looking for an oral queen"
+		},
+		{
+			"date": "Aug 26",
+			"datetime": "2019-08-26 15:31",
+			"hood": "Karengata",
+			"link": "https://kenya.craigslist.org/hss/d/if-monday-was-shoe/6964797047.html",
+			"title": "If Monday Was A Shoe"
+		},
+		{
+			"date": "Aug 24",
+			"datetime": "2019-08-24 16:02",
+			"hood": "",
+			"link": "https://kenya.craigslist.org/hss/d/massage-and-sex-2k-tonight-m4w/6963533359.html",
+			"title": "Massage and sex 2k tonight (M4W)"
+		},
+		{
+			"date": "Aug 23",
+			"datetime": "2019-08-23 20:41",
+			"hood": "Ngong road",
+			"link": "https://kenya.craigslist.org/hss/d/coffee-and-conversation/6963043075.html",
+			"title": "Coffee and conversation"
+		},
+		{
+			"date": "Aug 23",
+			"datetime": "2019-08-23 13:07",
+			"hood": "",
+			"link": "https://kenya.craigslist.org/hss/d/thika-road-top-needed/6962754688.html",
+			"title": "Thika road top needed"
+		},
+		{
+			"date": "Aug 22",
+			"datetime": "2019-08-22 21:59",
+			"hood": "Nairobi",
+			"link": "https://kenya.craigslist.org/hss/d/any-lady-who-wants-to-act-pov/6962310415.html",
+			"title": "Any lady who wants to act POV"
+		},
+		{
+			"date": "Aug 19",
+			"datetime": "2019-08-19 20:49",
+			"hood": "",
+			"link": "https://kenya.craigslist.org/hss/d/laundry-consultant/6959976307.html",
+			"title": "Laundry consultant"
+		},
+		{
+			"date": "Aug 17",
+			"datetime": "2019-08-17 17:41",
+			"hood": "Nairobi and it's environs",
+			"link": "https://kenya.craigslist.org/hss/d/laundry-consultant/6954240718.html",
+			"title": "Laundry consultant"
+		},
+		{
+			"date": "Aug 16",
+			"datetime": "2019-08-16 21:35",
+			"hood": "Thika Rd",
+			"link": "https://kenya.craigslist.org/hss/d/4-fun/6957972431.html",
+			"title": "M 4 M Fun"
+		},
+		{
+			"date": "Aug 16",
+			"datetime": "2019-08-16 17:28",
+			"hood": "",
+			"link": "https://kenya.craigslist.org/hss/d/thika-quickie/6957827029.html",
+			"title": "Thika Quickie"
+		},
+		{
+			"date": "Aug 16",
+			"datetime": "2019-08-16 15:50",
+			"hood": "NAIROBI",
+			"link": "https://kenya.craigslist.org/hss/d/cleaning-services/6957739011.html",
+			"title": "CLEANING SERVICES."
+		},
+		{
+			"date": "Aug 16",
+			"datetime": "2019-08-16 15:01",
+			"hood": "",
+			"link": "https://kenya.craigslist.org/hss/d/wife-urgently-needed/6956185038.html",
+			"title": "Wife urgently needed"
+		},
+		{
+			"date": "Aug 12",
+			"datetime": "2019-08-12 22:59",
+			"hood": "Nairobi",
+			"link": "https://kenya.craigslist.org/hss/d/evening-pleasure/6955087236.html",
+			"title": "Evening pleasure"
+		},
+		{
+			"date": "Aug 12",
+			"datetime": "2019-08-12 11:51",
+			"hood": "Kikuyu, limuru, Karen, kileleshwa, kitusuru, Kiambu and lavi",
+			"link": "https://kenya.craigslist.org/hss/d/laundry-consultant/6954762955.html",
+			"title": "Laundry consultant"
+		},
+		{
+			"date": "Aug 11",
+			"datetime": "2019-08-11 05:53",
+			"hood": "Nairobi",
+			"link": "https://kenya.craigslist.org/hss/d/sunday-afternoon-romp-ladies/6954091304.html",
+			"title": "Sunday afternoon Romp - ladies"
+		},
+		{
+			"date": "Aug 11",
+			"datetime": "2019-08-11 04:51",
+			"hood": "Nairobi South B",
+			"link": "https://kenya.craigslist.org/hss/d/sunday-plan-ladies/6954094489.html",
+			"title": "Sunday Plan - Ladies"
+		},
+		{
+			"date": "Aug  9",
+			"datetime": "2019-08-09 18:20",
+			"hood": "Msa Rd and it's environs",
+			"link": "https://kenya.craigslist.org/hss/d/housekeeping-and-extras/6952892554.html",
+			"title": "Housekeeping and extras"
+		},
+		{
+			"date": "Aug  8",
+			"datetime": "2019-08-08 00:53",
+			"hood": "nairobi.buruburu",
+			"link": "https://kenya.craigslist.org/hss/d/laundry-girl/6951721297.html",
+			"title": "laundry girl."
+		},
+		{
+			"date": "Aug  3",
+			"datetime": "2019-08-03 18:20",
+			"hood": "Nairobi County",
+			"link": "https://kenya.craigslist.org/hss/d/bottom-wantrd/6948544226.html",
+			"title": "Bottom wantrd"
+		},
+		{
+			"date": "Aug  2",
+			"datetime": "2019-08-02 22:59",
+			"hood": "",
+			"link": "https://kenya.craigslist.org/hss/d/day-fun/6948050082.html",
+			"title": "Day Fun"
+		},
+		{
+			"date": "Aug  2",
+			"datetime": "2019-08-02 03:02",
+			"hood": "Nairobi",
+			"link": "https://kenya.craigslist.org/hss/d/weekendfrisat-female-am/6947454622.html",
+			"title": "Weekend;Fri,Sat (female i am)"
+		},
+		{
+			"date": "Aug  1",
+			"datetime": "2019-08-01 16:47",
+			"hood": "Nairobi",
+			"link": "https://kenya.craigslist.org/hss/d/cleaning-lady/6946974401.html",
+			"title": "Cleaning lady"
+		},
+		{
+			"date": "Jul 31",
+			"datetime": "2019-07-31 17:25",
+			"hood": "",
+			"link": "https://kenya.craigslist.org/hss/d/cooler-box-and-push-carts-repair/6946279649.html",
+			"title": "Cooler Box and Push Carts Repair Service in Kenya"
+		},
+		{
+			"date": "Jul 27",
+			"datetime": "2019-07-27 18:06",
+			"hood": "juja, thika road",
+			"link": "https://kenya.craigslist.org/hss/d/in-need-of-good-bj/6943378742.html",
+			"title": "in need of a good bj"
 		}
 	]
 }

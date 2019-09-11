@@ -40,80 +40,15 @@
    <a class="header-logo" name="logoLink" href="/">CL</a>
 
     <nav class="breadcrumbs-container">
-<form id="breadcrumbform" class="breadcrumbs-form" method="get" action="/search/cpg" data-action="/search/###/cpg">
-    <input type="hidden" name="postedToday" value="1">
-<input type="hidden" name="is_paid" value="yes">
-
+<form id="breadcrumbform" class="breadcrumbs-form" method="get" action="/search/hss" data-action="/search/###/hss">
+    
     <ul class="breadcrumbs ">
         <li class="crumb area">
             
-            <span class="no-js">
-                <a href="/">new york</a>
+            <span>
+                <a href="/">kenya</a>
             </span>
-                <select id="areaAbb" class="js-only">
-                    <option value="newyork">new york</option>
-                        <option value="albany">albany, NY</option>
-                        <option value="allentown">allentown</option>
-                        <option value="altoona">altoona</option>
-                        <option value="annapolis">annapolis</option>
-                        <option value="baltimore">baltimore</option>
-                        <option value="binghamton">binghamton</option>
-                        <option value="boston">boston</option>
-                        <option value="capecod">cape cod</option>
-                        <option value="catskills">catskills</option>
-                        <option value="cnj">central NJ</option>
-                        <option value="chambersburg">cumberland val</option>
-                        <option value="delaware">delaware</option>
-                        <option value="newlondon">eastern CT</option>
-                        <option value="easternshore">eastern shore</option>
-                        <option value="martinsburg">eastern WV</option>
-                        <option value="elmira">elmira</option>
-                        <option value="fingerlakes">finger lakes</option>
-                        <option value="frederick">frederick</option>
-                        <option value="glensfalls">glens falls</option>
-                        <option value="harrisburg">harrisburg</option>
-                        <option value="hartford">hartford</option>
-                        <option value="hudsonvalley">hudson valley</option>
-                        <option value="ithaca">ithaca</option>
-                        <option value="jerseyshore">jersey shore</option>
-                        <option value="lancaster">lancaster, PA</option>
-                        <option value="longisland">long island</option>
-                        <option value="newhaven">new haven</option>
-                        <option value="newjersey">north jersey</option>
-                        <option value="nwct">northwest CT</option>
-                        <option value="oneonta">oneonta</option>
-                        <option value="philadelphia">philadelphia</option>
-                        <option value="poconos">poconos</option>
-                        <option value="reading">reading</option>
-                        <option value="providence">rhode island</option>
-                        <option value="scranton">scranton</option>
-                        <option value="southcoast">south coast</option>
-                        <option value="southjersey">south jersey</option>
-                        <option value="smd">southern MD</option>
-                        <option value="pennstate">state college</option>
-                        <option value="syracuse">syracuse</option>
-                        <option value="utica">utica</option>
-                        <option value="washingtondc">washington, DC</option>
-                        <option value="westernmass">western mass</option>
-                        <option value="williamsport">williamsport</option>
-                        <option value="worcester">worcester</option>
-                        <option value="york">york, PA</option>
-                </select>
-            <span class="breadcrumb-arrow">&gt;</span>
-        </li>
-        <li class="crumb subarea">
-            <select id="subArea">
-                <option value="" selected="">all new york</option>
-                <option value="brx">bronx</option>
-                <option value="brk">brooklyn</option>
-                <option value="fct">fairfield</option>
-                <option value="lgi">long island</option>
-                <option value="mnh">manhattan</option>
-                <option value="jsy">new jersey</option>
-                <option value="que">queens</option>
-                <option value="stn">staten island</option>
-                <option value="wch">westchester</option>
-            </select>
+                <input type="hidden" name="areaAbb" id="areaAbb" value="kenya">
             <span class="breadcrumb-arrow">&gt;</span>
         </li>
         <li class="crumb section">
@@ -121,26 +56,38 @@
                         <option value="ccc">community</option>
                         <option value="eee">events</option>
                         <option value="sss">for sale</option>
-                        <option value="ggg" selected="">gigs</option>
+                        <option value="ggg">gigs</option>
                         <option value="hhh">housing</option>
                         <option value="jjj">jobs</option>
                         <option value="rrr">resumes</option>
-                        <option value="bbb">services</option>
+                        <option value="bbb" selected="">services</option>
                     </select>
                 <span class="breadcrumb-arrow">&gt;</span>
         </li>
         <li class="crumb category">
             <select id="subcatAbb" class="js-only">
-                <option value="ggg">all</option>
-                    <option value="cpg" selected="">computer gigs</option>
-                    <option value="crg">creative gigs</option>
-                    <option value="cwg">crew gigs</option>
-                    <option value="dmg">domestic gigs</option>
-                    <option value="evg">event gigs</option>
-                    <option value="lbg">labor gigs</option>
-                    <option value="tlg">talent gigs</option>
-                    <option value="wrg">writing gigs</option>
-            </select><span class="no-js">computer gigs</span>
+                <option value="bbb">all</option>
+                    <option value="aos">automotive services</option>
+                    <option value="bts">beauty services</option>
+                    <option value="cms">cell phone / mobile services</option>
+                    <option value="cps">computer services</option>
+                    <option value="crs">creative services</option>
+                    <option value="cys">cycle services</option>
+                    <option value="evs">event services</option>
+                    <option value="fgs">farm &amp; garden services</option>
+                    <option value="fns">financial services</option>
+                    <option value="hss" selected="">household services</option>
+                    <option value="lbs">labor &amp; moving</option>
+                    <option value="lgs">legal services</option>
+                    <option value="lss">lessons &amp; tutoring</option>
+                    <option value="mas">marine services</option>
+                    <option value="pas">pet services</option>
+                    <option value="rts">real estate services</option>
+                    <option value="sks">skilled trade services</option>
+                    <option value="biz">small biz ads</option>
+                    <option value="trv">travel/vacation</option>
+                    <option value="wet">write/edit/trans</option>
+            </select><span class="no-js">household services</span>
             <span class="breadcrumb-arrow">&gt;</span>
         </li>
         <li class="crumb no-js">
@@ -153,7 +100,7 @@
 <div class="userlinks">
     <ul class="user-actions">
         <li class="user post">
-            <a href="https://post.craigslist.org/c/nyc">post</a>
+            <a href="https://post.craigslist.org/c/nbo">post</a>
         </li>
         <li class="user account">
             <a href="https://accounts.craigslist.org/login/home">account</a>
@@ -168,9 +115,9 @@
         <li class="user discards">
           <form class="unfavform js-only" method="POST" action="/favorites">
             <div class="to-banish-page">
-              <input type="hidden" class="lastLink" name="lastLink" value="//newyork.craigslist.org/search/cpg?is_paid=yes&amp;postedToday=1">
-              <input type="hidden" class="lastTitle" name="lastTitle" value="new york computer gigs  - craigslist">
-              <input type="hidden" class="unfaves" name="fl" value="dzM3am5saTo=">
+              <input type="hidden" class="lastLink" name="lastLink" value="//kenya.craigslist.org/search/hss?postedToday=0">
+              <input type="hidden" class="lastTitle" name="lastTitle" value="kenya household services  - craigslist">
+              <input type="hidden" class="unfaves" name="fl" value="ZGZ5eHg1cDo=">
               <input type="hidden" name="uf" value="1">
               <a href="#" class="to-banish-page-link">
                 <span class="icon icon-trash red" aria-hidden="true"></span>
@@ -191,9 +138,9 @@
 <ul class="breadcrumbs">
 
 
-new york            &gt;
+kenya            &gt;
 
-computer gigs
+household services
 
 </ul>
 
@@ -203,18 +150,18 @@ computer gigs
 </header>
 
 
-        <form id="searchform" class="search-form" action="/search/cpg">
+        <form id="searchform" class="search-form" action="/search/hss">
             <div class="querybox">
                 
                 <div class="form-tab js-only"><span class="search-open" title="hide search">«</span><span class="search-closed" title="show search">»</span></div>
-                <input type="text" placeholder="search computer gigs" name="query" id="query" value="" autocorrect="off" class="flatinput ui-autocomplete-input" autocapitalize="off" autocomplete="off" data-autocomplete="search">
+                <input type="text" placeholder="search household services" name="query" id="query" value="" autocorrect="off" class="flatinput ui-autocomplete-input" autocapitalize="off" autocomplete="off" data-autocomplete="search">
 
                 <button type="submit" class="searchbtn">
                     <span class="icon icon-search" aria-hidden="true"></span>
                     <span class="screen-reader-text">press to search craigslist</span>
                 </button>
                     <div class="savealert">
-                        <a class="saveme" data-action="save" href="https://accounts.craigslist.org/login?rt=L&amp;rp=%2Fsavesearch%2Fsave%3FURL%3Dhttps%253A%252F%252Fnewyork%252Ecraigslist%252Eorg%252Fsearch%252Fcpg%253Fis%255Fpaid%253Dyes%2526postedToday%253D1" title="save this search">save search</a>
+                        <a class="saveme" data-action="save" href="https://accounts.craigslist.org/login?rt=L&amp;rp=%2Fsavesearch%2Fsave%3FURL%3Dhttps%253A%252F%252Fkenya%252Ecraigslist%252Eorg%252Fsearch%252Fhss%253FpostedToday%253D0" title="save this search">save search</a>
                     </div>
             </div>
 
@@ -227,24 +174,14 @@ computer gigs
     <div class="search-options">
         <div class="searchgroup categories">
             <div class="cattitle">
-                  <a href="/search/cpg" title="clear all search parameters" class="reset">computer gigs</a>
+                  <a href="/search/hss" title="clear all search parameters" class="reset">household services</a>
             </div>
 
         </div>
         <input type="hidden" name="userid" value="">
 
 
-              <input type="hidden" name="is_paid" id="is_paid" value="yes">
 
-                <ul class="searchgroup buttongroup remuneration">
-                    <li class="button ">
-                        <a href="/search/cpg?postedToday=1" data-val="">all</a>
-                    </li><li class="button sel">
-                        <a href="/search/cpg?is_paid=yes&amp;postedToday=1" data-val="yes">paid</a>
-                    </li><li class="button ">
-                        <a href="/search/cpg?is_paid=no&amp;postedToday=1" data-val="no">unpaid</a>
-                    </li>
-                </ul>
 
 
         <div class="searchgroup">
@@ -263,7 +200,7 @@ computer gigs
     </li>
     <li>
        <label class="postedToday">
-           <input type="checkbox" name="postedToday" class="autosubmit" value="1" checked="">
+           <input type="checkbox" name="postedToday" class="autosubmit" value="1">
            posted today
        </label>
     </li>
@@ -273,402 +210,13 @@ computer gigs
            bundle duplicates
        </label>
     </li>
-    <li>
-       <label class="searchNearby">
-           <input type="checkbox" name="searchNearby" class="" value="1">
-           include nearby areas
-       </label>
-    </li>
 </ul>
 
                 <ul class="js-only nearbyAreas ">
-                        <li class="nearbyZone nearbyZone_3">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_20" value="59" disabled="disabled">
-                            albany, NY <small>(alb)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_7">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_45" value="355" disabled="disabled">
-                            altoona-johnstown <small>(aoo)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_5">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_33" value="460" disabled="disabled">
-                            annapolis, MD <small>(anp)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_4">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_28" value="34" disabled="disabled">
-                            baltimore, MD <small>(bal)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_3">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_21" value="248" disabled="disabled">
-                            binghamton, NY <small>(bgm)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_5">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_35" value="4" disabled="disabled">
-                            boston <small>(bos)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_9">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_57" value="40" disabled="disabled">
-                            buffalo, NY <small>(buf)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_7">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_42" value="239" disabled="disabled">
-                            cape cod / islands <small>(cap)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_1">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_9" value="451" disabled="disabled">
-                            catskills <small>(cat)</small>
-                        </label>
-                        </li>
-                        <li class="">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_2" value="349" disabled="disabled">
-                            central NJ <small>(cnj)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_10">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_60" value="290" disabled="disabled">
-                            charlottesville, VA <small>(uva)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_9">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_59" value="452" disabled="disabled">
-                            chautauqua, NY <small>(chq)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_6">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_38" value="705" disabled="disabled">
-                            cumberland valley <small>(cbg)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_3">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_19" value="193" disabled="disabled">
-                            delaware <small>(dlw)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_2">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_15" value="281" disabled="disabled">
-                            eastern CT <small>(nlo)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_7">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_44" value="444" disabled="disabled">
-                            eastern panhandle <small>(ewv)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_4">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_29" value="328" disabled="disabled">
-                            eastern shore <small>(esh)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_5">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_30" value="453" disabled="disabled">
-                            elmira-corning <small>(elm)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_6">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_36" value="685" disabled="disabled">
-                            finger lakes, NY <small>(fgl)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_6">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_39" value="633" disabled="disabled">
-                            frederick, MD <small>(fdk)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_8">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_49" value="457" disabled="disabled">
-                            fredericksburg, VA <small>(ezf)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_5">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_34" value="686" disabled="disabled">
-                            glens falls, NY <small>(gfl)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_3">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_23" value="166" disabled="disabled">
-                            harrisburg, PA <small>(hrs)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_10">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_61" value="447" disabled="disabled">
-                            harrisonburg, VA <small>(shd)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_2">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_12" value="44" disabled="disabled">
-                            hartford, CT <small>(htf)</small>
-                        </label>
-                        </li>
-                        <li class="">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_4" value="249" disabled="disabled">
-                            hudson valley, NY <small>(hud)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_5">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_31" value="201" disabled="disabled">
-                            ithaca, NY <small>(ith)</small>
-                        </label>
-                        </li>
-                        <li class="">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_1" value="561" disabled="disabled">
-                            jersey shore <small>(jys)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_2">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_17" value="279" disabled="disabled">
-                            lancaster, PA <small>(lns)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_1">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_7" value="167" disabled="disabled">
-                            lehigh valley <small>(alt)</small>
-                        </label>
-                        </li>
-                        <li class="">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_3" value="250" disabled="disabled">
-                            long island, NY <small>(isp)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_7">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_46" value="198" disabled="disabled">
-                            new hampshire <small>(nhm)</small>
-                        </label>
-                        </li>
-                        <li class="">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_5" value="168" disabled="disabled">
-                            new haven, CT <small>(hvn)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_9">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_58" value="48" disabled="disabled">
-                            norfolk / hampton roads <small>(nfk)</small>
-                        </label>
-                        </li>
-                        <li class="">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_0" value="170" disabled="disabled">
-                            north jersey <small>(njy)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_1">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_10" value="354" disabled="disabled">
-                            northwest CT <small>(nct)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_3">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_18" value="684" disabled="disabled">
-                            oneonta, NY <small>(onh)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_1">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_8" value="17" disabled="disabled">
-                            philadelphia <small>(phi)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_9">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_54" value="338" disabled="disabled">
-                            plattsburgh-adirondacks <small>(plb)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_1">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_6" value="356" disabled="disabled">
-                            poconos <small>(poc)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_9">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_55" value="683" disabled="disabled">
-                            potsdam-canton-massena <small>(ptd)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_2">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_14" value="278" disabled="disabled">
-                            reading, PA <small>(rea)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_4">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_24" value="38" disabled="disabled">
-                            rhode island <small>(prv)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_9">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_56" value="60" disabled="disabled">
-                            richmond, VA <small>(ric)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_8">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_50" value="126" disabled="disabled">
-                            rochester, NY <small>(rcs)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_1">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_11" value="276" disabled="disabled">
-                            scranton / wilkes-barre <small>(avp)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_4">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_27" value="378" disabled="disabled">
-                            south coast, MA <small>(sma)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_2">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_13" value="286" disabled="disabled">
-                            south jersey <small>(snj)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_7">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_43" value="556" disabled="disabled">
-                            southern maryland <small>(smd)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_6">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_40" value="277" disabled="disabled">
-                            state college, PA <small>(psu)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_6">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_37" value="130" disabled="disabled">
-                            syracuse, NY <small>(syr)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_8">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_53" value="704" disabled="disabled">
-                            twin tiers NY/PA <small>(tts)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_5">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_32" value="247" disabled="disabled">
-                            utica-rome-oneida <small>(uti)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_8">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_52" value="93" disabled="disabled">
-                            vermont <small>(brl)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_6">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_41" value="10" disabled="disabled">
-                            washington, DC <small>(wdc)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_8">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_48" value="337" disabled="disabled">
-                            watertown, NY <small>(wtn)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_8">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_51" value="329" disabled="disabled">
-                            western maryland <small>(wmd)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_2">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_16" value="173" disabled="disabled">
-                            western massachusetts <small>(wma)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_4">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_26" value="463" disabled="disabled">
-                            williamsport, PA <small>(wpt)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_7">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_47" value="711" disabled="disabled">
-                            winchester, VA <small>(okv)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_4">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_25" value="240" disabled="disabled">
-                            worcester / central MA <small>(wor)</small>
-                        </label>
-                        </li>
-                        <li class="nearbyZone nearbyZone_3">
-                        <label class="nearby">
-                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_22" value="357" disabled="disabled">
-                            york, PA <small>(yrk)</small>
-                        </label>
-                        </li>
 
-                        <li>
-                        <span class="nextNearbyZone linklike" data-zone="1">
-                            + show <span id="nearbyNumber">6</span> more...
-                        </span>
-                        </li>
                 </ul>
         </div>
 
-            <div class="searchgroup">
-                <span class="searchfieldlabel">miles from zip</span>
-                <input size="5" maxlength="5" inputmode="numeric" class="flatinput searchInput search_distance" placeholder="miles" name="search_distance" value="">
-                <input type="text" class="flatinput searchInput postal" placeholder="from zip" size="7" name="postal" value="">
-                <span class="icon icon-locate"></span>
-            </div>
 
 
 
@@ -677,7 +225,7 @@ computer gigs
         
 
         <div class="searchgroup resetsearch">
-            <a href="/search/cpg" title="clear all search parameters" class="reset linklike">reset</a>
+            <a href="/search/hss" title="clear all search parameters" class="reset linklike">reset</a>
             <button type="submit" class="searchlink linklike">update search</button>
         </div>
 
@@ -707,12 +255,6 @@ computer gigs
                 </button>
                 <span class="toggle-arrow"></span>
             </li>
-                <li class="dropdown-item mode">
-                    <button title="show results on a map" data-selection="map" id="mapview">
-                        <span class="view-map icon"></span>map
-                    </button>
-                    <span class="toggle-arrow"></span>
-                </li>
         </ul>
     </div>
 </div>
@@ -721,7 +263,7 @@ computer gigs
         <ul class="dropdown-list">
 
             <li class="dropdown-item mode sel" aria-selected="true">
-                <a data-selection="date" title="show newest matches first" href="/search/cpg?sort=date&amp;is_paid=yes&amp;postedToday=1">newest <span class="toggle-arrow"></span></a>
+                <a data-selection="date" title="show newest matches first" href="/search/hss?sort=date&amp;postedToday=0">newest <span class="toggle-arrow"></span></a>
             </li>
 
         </ul>
@@ -731,23 +273,23 @@ computer gigs
                 <div class="paginator buttongroup firstpage lastpage">
     <span class="resulttotal">
         <span class="for-map">
-        displaying <span class="displaycountShow">...</span> posting
+        displaying <span class="displaycountShow">...</span> postings
         </span>
     </span>
     <span class="buttons">
-        <a href="/search/cpg?is_paid=yes&amp;postedToday=1" class="button first" title="first page">&lt;&lt;</a>
+        <a href="/search/hss?postedToday=0" class="button first" title="first page">&lt;&lt;</a>
         <span class="button first" title="first page">&lt;&lt;</span>
-        <a href="/search/cpg?is_paid=yes&amp;postedToday=1" class="button prev" title="previous page">&lt; prev</a>
+        <a href="/search/hss?postedToday=0" class="button prev" title="previous page">&lt; prev</a>
         <span class="button prev" title="previous page">&lt; prev</span>
 
         <span class="button pagenum">
             <span class="range">
                 <span class="rangeFrom">1</span>
                 -
-                <span class="rangeTo">1</span>
+                <span class="rangeTo">33</span>
             </span>
             /
-            <span class="totalcount">1</span>
+            <span class="totalcount">33</span>
         </span>
 
         <a href="" class="button next" title="next page">next &gt; </a>
@@ -771,7 +313,7 @@ computer gigs
 <div class="open-map-view-button">
     <span>see in map view</span>
 </div>
-<div id="mapcontainer" data-arealat="40.714199" data-arealon="-74.006401">
+<div id="mapcontainer" data-arealat="-1.283330" data-arealon="36.816700">
     <div id="noresult-overlay"></div>
     <div id="noresult-text">
         <span class="message">No mappable items found</span>
@@ -783,25 +325,1175 @@ computer gigs
 </div>
 
                 <ul class="rows">
-                             <li class="result-row" data-pid="6964533229">
+                             <li class="result-row" data-pid="6975415486">
 
-        <a href="https://newyork.craigslist.org/brk/cpg/d/brooklyn-helped-needed-with-seos/6964533229.html" class="result-image gallery empty"></a>
+        <a href="https://kenya.craigslist.org/hss/d/house-rent/6975415486.html" class="result-image gallery empty"></a>
 
     <p class="result-info">
         <span class="icon icon-star" role="button" title="save this post in your favorites list">
             <span class="screen-reader-text">favorite this post</span>
         </span>
 
-            <time class="result-date" datetime="2019-08-25 17:19" title="Sun 25 Aug 05:19:19 PM">Aug 25</time>
+            <time class="result-date" datetime="2019-09-10 15:55" title="Tue 10 Sep 03:55:46 PM">Sep 10</time>
 
 
-        <a href="https://newyork.craigslist.org/brk/cpg/d/brooklyn-helped-needed-with-seos/6964533229.html" data-id="6964533229" class="result-title hdrlnk">Helped Needed with SEOs</a>
+        <a href="https://kenya.craigslist.org/hss/d/house-rent/6975415486.html" data-id="6975415486" class="result-title hdrlnk">House Rent</a>
 
 
         <span class="result-meta">
 
 
-                <span class="result-hood"> (Williamsburg)</span>
+                <span class="result-hood"> (Nairobi)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6975338600">
+
+        <a href="https://kenya.craigslist.org/hss/d/comfortable-abode/6975338600.html" class="result-image gallery" data-ids="1:00y0y_aiD7qcucr96">
+        </a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-09-10 09:25" title="Tue 10 Sep 09:25:07 AM">Sep 10</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/comfortable-abode/6975338600.html" data-id="6975338600" class="result-title hdrlnk">Comfortable Abode</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Nairobi)</span>
+
+                <span class="result-tags">
+                    <span class="pictag">pic</span>
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6975323032">
+
+        <a href="https://kenya.craigslist.org/hss/d/male-company/6975323032.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-09-10 08:15" title="Tue 10 Sep 08:15:24 AM">Sep 10</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/male-company/6975323032.html" data-id="6975323032" class="result-title hdrlnk">Male company</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Nairobi)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6971794659" data-repost-of="6907302281">
+
+        <a href="https://kenya.craigslist.org/hss/d/maid-job/6971794659.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-09-05 13:34" title="Thu 05 Sep 01:34:32 PM">Sep  5</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/maid-job/6971794659.html" data-id="6971794659" class="result-title hdrlnk">Maid job</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Nairobi)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6970692138">
+
+        <a href="https://kenya.craigslist.org/hss/d/ladies-only/6970692138.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-09-04 00:01" title="Wed 04 Sep 12:01:08 AM">Sep  4</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/ladies-only/6970692138.html" data-id="6970692138" class="result-title hdrlnk">Ladies Only</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Mombasa CBD)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6970624102">
+
+        <a href="https://kenya.craigslist.org/hss/d/cleaning-lady/6970624102.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-09-03 21:46" title="Tue 03 Sep 09:46:39 PM">Sep  3</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/cleaning-lady/6970624102.html" data-id="6970624102" class="result-title hdrlnk">Cleaning lady</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Utawala)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6970263691">
+
+        <a href="https://kenya.craigslist.org/hss/d/netflix-and-chillm4w/6970263691.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-09-03 13:45" title="Tue 03 Sep 01:45:07 PM">Sep  3</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/netflix-and-chillm4w/6970263691.html" data-id="6970263691" class="result-title hdrlnk">Netflix and chill{M4W}</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (kasarani)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6968467387">
+
+        <a href="https://kenya.craigslist.org/hss/d/good-massage-and-some-sex-m4w/6968467387.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-31 16:21" title="Sat 31 Aug 04:21:24 PM">Aug 31</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/good-massage-and-some-sex-m4w/6968467387.html" data-id="6968467387" class="result-title hdrlnk">Good Massage and some sex (M4W)</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Nairobi)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6968398479">
+
+        <a href="https://kenya.craigslist.org/hss/d/saturday-morning-fun/6968398479.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-31 09:58" title="Sat 31 Aug 09:58:38 AM">Aug 31</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/saturday-morning-fun/6968398479.html" data-id="6968398479" class="result-title hdrlnk">SATURDAY MORNING FUN</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Thika Rd.)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6966975467">
+
+        <a href="https://kenya.craigslist.org/hss/d/looking-for-an-oral-queen/6966975467.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-29 07:41" title="Thu 29 Aug 07:41:58 AM">Aug 29</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/looking-for-an-oral-queen/6966975467.html" data-id="6966975467" class="result-title hdrlnk">Looking for an oral queen</a>
+
+
+        <span class="result-meta">
+
+
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6964797047">
+
+        <a href="https://kenya.craigslist.org/hss/d/if-monday-was-shoe/6964797047.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-26 15:31" title="Mon 26 Aug 03:31:52 PM">Aug 26</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/if-monday-was-shoe/6964797047.html" data-id="6964797047" class="result-title hdrlnk">If Monday Was A Shoe</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Karengata)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6963533359">
+
+        <a href="https://kenya.craigslist.org/hss/d/massage-and-sex-2k-tonight-m4w/6963533359.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-24 16:02" title="Sat 24 Aug 04:02:45 PM">Aug 24</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/massage-and-sex-2k-tonight-m4w/6963533359.html" data-id="6963533359" class="result-title hdrlnk">Massage and sex 2k tonight (M4W)</a>
+
+
+        <span class="result-meta">
+
+
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6963043075">
+
+        <a href="https://kenya.craigslist.org/hss/d/coffee-and-conversation/6963043075.html" class="result-image gallery" data-ids="1:00e0e_1qE5MfZ8RFj">
+        </a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-23 20:41" title="Fri 23 Aug 08:41:38 PM">Aug 23</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/coffee-and-conversation/6963043075.html" data-id="6963043075" class="result-title hdrlnk">Coffee and conversation</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Ngong road)</span>
+
+                <span class="result-tags">
+                    <span class="pictag">pic</span>
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6962754688">
+
+        <a href="https://kenya.craigslist.org/hss/d/thika-road-top-needed/6962754688.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-23 13:07" title="Fri 23 Aug 01:07:35 PM">Aug 23</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/thika-road-top-needed/6962754688.html" data-id="6962754688" class="result-title hdrlnk">Thika road top needed</a>
+
+
+        <span class="result-meta">
+
+
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6962310415">
+
+        <a href="https://kenya.craigslist.org/hss/d/any-lady-who-wants-to-act-pov/6962310415.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-22 21:59" title="Thu 22 Aug 09:59:20 PM">Aug 22</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/any-lady-who-wants-to-act-pov/6962310415.html" data-id="6962310415" class="result-title hdrlnk">Any lady who wants to act POV</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Nairobi)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6959976307">
+
+        <a href="https://kenya.craigslist.org/hss/d/laundry-consultant/6959976307.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-19 20:49" title="Mon 19 Aug 08:49:21 PM">Aug 19</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/laundry-consultant/6959976307.html" data-id="6959976307" class="result-title hdrlnk">Laundry consultant</a>
+
+
+        <span class="result-meta">
+
+
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6954240718">
+
+        <a href="https://kenya.craigslist.org/hss/d/laundry-consultant/6954240718.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-17 17:41" title="Sat 17 Aug 05:41:11 PM">Aug 17</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/laundry-consultant/6954240718.html" data-id="6954240718" class="result-title hdrlnk">Laundry consultant</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Nairobi and it's environs)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6957972431">
+
+        <a href="https://kenya.craigslist.org/hss/d/4-fun/6957972431.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-16 21:35" title="Fri 16 Aug 09:35:35 PM">Aug 16</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/4-fun/6957972431.html" data-id="6957972431" class="result-title hdrlnk">M 4 M Fun</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Thika Rd)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6957827029">
+
+        <a href="https://kenya.craigslist.org/hss/d/thika-quickie/6957827029.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-16 17:28" title="Fri 16 Aug 05:28:52 PM">Aug 16</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/thika-quickie/6957827029.html" data-id="6957827029" class="result-title hdrlnk">Thika Quickie</a>
+
+
+        <span class="result-meta">
+
+
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6957739011">
+
+        <a href="https://kenya.craigslist.org/hss/d/cleaning-services/6957739011.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-16 15:50" title="Fri 16 Aug 03:50:12 PM">Aug 16</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/cleaning-services/6957739011.html" data-id="6957739011" class="result-title hdrlnk">CLEANING SERVICES.</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (NAIROBI)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6956185038">
+
+        <a href="https://kenya.craigslist.org/hss/d/wife-urgently-needed/6956185038.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-16 15:01" title="Fri 16 Aug 03:01:53 PM">Aug 16</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/wife-urgently-needed/6956185038.html" data-id="6956185038" class="result-title hdrlnk">Wife urgently needed</a>
+
+
+        <span class="result-meta">
+
+
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6955087236">
+
+        <a href="https://kenya.craigslist.org/hss/d/evening-pleasure/6955087236.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-12 22:59" title="Mon 12 Aug 10:59:18 PM">Aug 12</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/evening-pleasure/6955087236.html" data-id="6955087236" class="result-title hdrlnk">Evening pleasure</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Nairobi)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6954762955">
+
+        <a href="https://kenya.craigslist.org/hss/d/laundry-consultant/6954762955.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-12 11:51" title="Mon 12 Aug 11:51:22 AM">Aug 12</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/laundry-consultant/6954762955.html" data-id="6954762955" class="result-title hdrlnk">Laundry consultant</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Kikuyu, limuru, Karen, kileleshwa, kitusuru, Kiambu and lavi)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6954091304">
+
+        <a href="https://kenya.craigslist.org/hss/d/sunday-afternoon-romp-ladies/6954091304.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-11 05:53" title="Sun 11 Aug 05:53:47 AM">Aug 11</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/sunday-afternoon-romp-ladies/6954091304.html" data-id="6954091304" class="result-title hdrlnk">Sunday afternoon Romp - ladies</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Nairobi)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6954094489">
+
+        <a href="https://kenya.craigslist.org/hss/d/sunday-plan-ladies/6954094489.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-11 04:51" title="Sun 11 Aug 04:51:19 AM">Aug 11</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/sunday-plan-ladies/6954094489.html" data-id="6954094489" class="result-title hdrlnk">Sunday Plan - Ladies</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Nairobi (South B))</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6952892554">
+
+        <a href="https://kenya.craigslist.org/hss/d/housekeeping-and-extras/6952892554.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-09 18:20" title="Fri 09 Aug 06:20:22 PM">Aug  9</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/housekeeping-and-extras/6952892554.html" data-id="6952892554" class="result-title hdrlnk">Housekeeping and extras</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Msa Rd and it's environs)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6951721297">
+
+        <a href="https://kenya.craigslist.org/hss/d/laundry-girl/6951721297.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-08 00:53" title="Thu 08 Aug 12:53:27 AM">Aug  8</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/laundry-girl/6951721297.html" data-id="6951721297" class="result-title hdrlnk">laundry girl.</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (nairobi.buruburu)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6948544226">
+
+        <a href="https://kenya.craigslist.org/hss/d/bottom-wantrd/6948544226.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-03 18:20" title="Sat 03 Aug 06:20:55 PM">Aug  3</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/bottom-wantrd/6948544226.html" data-id="6948544226" class="result-title hdrlnk">Bottom wantrd</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Nairobi County)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6948050082">
+
+        <a href="https://kenya.craigslist.org/hss/d/day-fun/6948050082.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-02 22:59" title="Fri 02 Aug 10:59:23 PM">Aug  2</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/day-fun/6948050082.html" data-id="6948050082" class="result-title hdrlnk">Day Fun</a>
+
+
+        <span class="result-meta">
+
+
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6947454622">
+
+        <a href="https://kenya.craigslist.org/hss/d/weekendfrisat-female-am/6947454622.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-02 03:02" title="Fri 02 Aug 03:02:33 AM">Aug  2</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/weekendfrisat-female-am/6947454622.html" data-id="6947454622" class="result-title hdrlnk">Weekend;Fri,Sat (female i am)</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Nairobi)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6946974401">
+
+        <a href="https://kenya.craigslist.org/hss/d/cleaning-lady/6946974401.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-01 16:47" title="Thu 01 Aug 04:47:36 PM">Aug  1</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/cleaning-lady/6946974401.html" data-id="6946974401" class="result-title hdrlnk">Cleaning lady</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Nairobi)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6946279649">
+
+        <a href="https://kenya.craigslist.org/hss/d/cooler-box-and-push-carts-repair/6946279649.html" class="result-image gallery" data-ids="1:00u0u_bHVL9cGHUU6">
+        </a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-07-31 17:25" title="Wed 31 Jul 05:25:22 PM">Jul 31</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/cooler-box-and-push-carts-repair/6946279649.html" data-id="6946279649" class="result-title hdrlnk">Cooler Box and Push Carts Repair Service in Kenya</a>
+
+
+        <span class="result-meta">
+
+
+
+                <span class="result-tags">
+                    <span class="pictag">pic</span>
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+         <li class="result-row" data-pid="6943378742">
+
+        <a href="https://kenya.craigslist.org/hss/d/in-need-of-good-bj/6943378742.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-07-27 18:06" title="Sat 27 Jul 06:06:26 PM">Jul 27</time>
+
+
+        <a href="https://kenya.craigslist.org/hss/d/in-need-of-good-bj/6943378742.html" data-id="6943378742" class="result-title hdrlnk">in need of a good bj</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (juja, thika road)</span>
 
                 <span class="result-tags">
                 </span>
@@ -820,45 +1512,8 @@ computer gigs
     </p>
 </li>
 
-                    <h4 class="ban nearby"><span class="bantext">Few local results found. Here are some from nearby areas. Checking 'include nearby areas' will expand your search.</span></h4>
-
-                             <li class="result-row" data-pid="6964270780">
-
-        <a href="https://newjersey.craigslist.org/cpg/d/north-bergen-addwords-expert/6964270780.html" class="result-image gallery empty"></a>
-
-    <p class="result-info">
-        <span class="icon icon-star" role="button" title="save this post in your favorites list">
-            <span class="screen-reader-text">favorite this post</span>
-        </span>
-
-            <time class="result-date" datetime="2019-08-25 11:11" title="Sun 25 Aug 11:11:45 AM">Aug 25</time>
-
-
-        <a href="https://newjersey.craigslist.org/cpg/d/north-bergen-addwords-expert/6964270780.html" data-id="6964270780" class="result-title hdrlnk">💰💰💰 ADDWORDS EXPERT 💸💸💸</a>
-
-
-        <span class="result-meta">
-
-
-                <span class="nearby" title="north jersey">(njy &gt; North Bergen)</span>
-
-                <span class="result-tags">
-                </span>
-
-                <span class="banish icon icon-trash" role="button">
-                    <span class="screen-reader-text">hide this posting</span>
-                </span>
-
-            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
-            <a href="#" class="restore-link">
-                <span class="restore-narrow-text">restore</span>
-                <span class="restore-wide-text">restore this posting</span>
-            </a>
-
-        </span>
-    </p>
-</li>
-
+                    
+                    
                 </ul>
             </div>
 
@@ -872,23 +1527,23 @@ computer gigs
                 <div class="paginator buttongroup firstpage lastpage">
     <span class="resulttotal">
         <span class="for-map">
-        displaying <span class="displaycountShow">...</span> posting
+        displaying <span class="displaycountShow">...</span> postings
         </span>
     </span>
     <span class="buttons">
-        <a href="/search/cpg?is_paid=yes&amp;postedToday=1" class="button first" title="first page">&lt;&lt;</a>
+        <a href="/search/hss?postedToday=0" class="button first" title="first page">&lt;&lt;</a>
         <span class="button first" title="first page">&lt;&lt;</span>
-        <a href="/search/cpg?is_paid=yes&amp;postedToday=1" class="button prev" title="previous page">&lt; prev</a>
+        <a href="/search/hss?postedToday=0" class="button prev" title="previous page">&lt; prev</a>
         <span class="button prev" title="previous page">&lt; prev</span>
 
         <span class="button pagenum">
             <span class="range">
                 <span class="rangeFrom">1</span>
                 -
-                <span class="rangeTo">1</span>
+                <span class="rangeTo">33</span>
             </span>
             /
-            <span class="totalcount">1</span>
+            <span class="totalcount">33</span>
         </span>
 
         <a href="" class="button next" title="next page">next &gt; </a>
@@ -930,7 +1585,7 @@ computer gigs
 
 <footer>
         <span class="rss">
-            <a class="l" href="https://newyork.craigslist.org/search/cpg?format=rss&amp;is_paid=yes&amp;postedToday=1">RSS</a>
+            <a class="l" href="https://kenya.craigslist.org/search/hss?format=rss&amp;postedToday=0">RSS</a>
             <a href="https://www.craigslist.org/about/rss">(?)</a><br>
         </span>
     <ul class="clfooter">
