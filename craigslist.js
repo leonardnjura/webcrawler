@@ -9,8 +9,6 @@ if (city != 'newyork') {
   url = `http://${city}.craigslist.org/search/hss?postedToday=0`;
 }
 
-const myUrl = `http://thedonkeysanctuarykenya.org/leo/samplesites/edu/student/`;
-
 nightmare
   .goto('https://google.com') //navigates to google
   .wait(2000)
@@ -54,7 +52,9 @@ nightmare
               .attr('datetime');
             item['hood'] = $(this)
               .find('.result-hood')
-              .text().replace(/\(|\)/g, '').trim();
+              .text()
+              .replace(/\(|\)/g, '')
+              .trim();
             pageList.push(item);
           });
 
