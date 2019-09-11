@@ -1,0 +1,55 @@
+book review: cult of the dead cow
+https://www.spacerogue.net/wordpress/?p=723
+TL, DR: It’s a good story, not a history book. If you are looking for a good story with a message, read it. If you are looking for a nuanced description of what was happening in history, look elsewhere.
+2019.06.03
+
+revisiting l0pht testimony – 20yrs later
+https://www.spacerogue.net/wordpress/?p=709
+Here is a copy of my introductory statement from the May 22, 2018 briefing where L0pht revisited its historic Senate testimony of twenty years earlier. (supporting links at the end.)
+2018.05.23
+
+a hacker at the polls
+https://www.spacerogue.net/wordpress/?p=681
+On the second Tuesday in November I burned a vacation day, woke up at five in the morning and drove to a church down the street from where I live. I sat at a long table for thirteen hours and looked up names in a book. While I wasn’t at the church to pray I still felt as though I was cleansing my soul in some way. Over the years for various reasons I had amassed what I felt was extremely high level of personal voter debt and I felt this was a way to at least begin to pay some of it back.
+2017.11.27
+
+the continuing evolution of cyber
+https://www.spacerogue.net/wordpress/?p=655
+I don’t think there is another word in the English language that provokes as much of an emotional response from information security professionals as much as ‘cyber’. In fact, half of the people who just read that last sentence are like yeah, but cyber is not a word it’s a prefix. (The other half probably just started giggling.)  Unfortunately for them 	Merriam-Webster and the Oxford English Dictionary have both recently listed cyber as a stand-alone word as an adjective with the definition ‘of, relating to, or involving computers or computer networks’ which to me is an extremely broad definition. The Cambridge, Macmillan and Longman dictionaries all still lists cyber as a prefix but I am sure they will upgrade it to full word status soon. Can official use as a noun, the cyber, be far behind?
+2017.04.26
+
+l0pht t-shirt quilt
+https://www.spacerogue.net/wordpress/?p=648
+	It is hard to work in Infosec for very long and not amass a huge number of T-shirts. Vendors give them away like candy thinking that somehow a free t-shirt is going to make you spend thousands of dollars on their blinky light solution versus their competitors blinky light solution. However, some t-shirts tend to have a great value than others. Those shirts emblazoned with logos from projects or companies that you actually worked with tend to have the most value. Then the question becomes what do you do with them?
+	For me, for the last twenty years or so, my most valuable t-shirts lived in a plastic box under my bed. I never wore them, because, well, I don’t wear t-shirts much and these were a little too valuable to me to risk them fading due to over use. And so they stayed in the box, seldom seen.
+	A few years ago I ran across a company offering to make a quilt out of old T-shirts. I thought this was a great idea! And the price was pretty inexpensive to. I almost sent my shirts in immediately but for some reason I hesitated. I started Googling and found there is more than one company making quilts out of T-shirts and way more than one way to do it. I knew nothing about fabric design or quilting, backing material, batting, stitch length, binding, etc.. Evidently there is a quite a bit that goes into a quilt and I only had one copy of many of my T-shirts. I didn’t want to risk going with a low cost option simply because it was low cost.
+	In the end I chose Too Cool T-Shirt Quilts. I boxed up my shirts and sent them in. They emailed me as soon as they got the box and asked me what sort of options I waned, how big of a border, any designs in the quilting, special positioning of certain shirts, etc.. 2 weeks later they sent me these photos.
+2017.03.20
+
+southwest password ad is both good and bad.
+https://www.spacerogue.net/wordpress/?p=635
+Southwest Airlines recently aired a TV ad in their “Wanna Get Away” series that features some serious password blunders. In the ad a General is asked for his password so that they “can lock down the system” which he then reluctantly provides. The password, “ihatemyjob1”, is rather embarrassing and hilarity ensures. Lets watch…
+2016.10.17
+
+tilting it sideways
+https://www.spacerogue.net/wordpress/?p=625
+Trying to track down the origins of an Internet meme can be an almost fruitless endeavor. Other than giving credit to its originator and perhaps giving them a few minutes of Internet fame there really isn’t a lot at stake by determining who was the kid in the success.gif or what meme Laina Morris is responsible for. Finding the origin of a story involving the breach of critical infrastructure however, can be rather important.
+2016.09.15
+
+transcription of l0pht testimony
+https://www.spacerogue.net/wordpress/?p=602
+Transcription of the YouTube Video:
+Hackers Testifying at the United States Senate, May 19, 1998 (L0pht Heavy Industries)
+https://www.youtube.com/watch?v=VVJldn_MmMY
+2015.11.02
+
+i watched csi:cyber so you don’t have to.
+https://www.spacerogue.net/wordpress/?p=554
+CSI has a proven formula for making popular TV shows. Unfortunately that history does not include accurate TV shows. When it comes to tech and things ‘cyber’ this is probably the preeminent example of CSI being bad and wrong at the same time.  I thought there was no way they could top this, I was wrong.
+2015.03.05
+
+in the beginning there was full disclosure
+https://www.spacerogue.net/wordpress/?p=536
+Two of the largest companies in the world are bickering with each other about how best to protect users. I won’t get into just how historically hypocritical this is for both Microsoft and Google or how childish it makes them both look but it brings up a debate that has been raging in security circles for over a hundred years starting way back in the 1890s with the release of locksmithing information. An organization I was involved with, L0pht Heavy Industries, raised the debate again in the 1990’s as security researchers started finding vulnerabilities in products. 
+2015.01.12
+

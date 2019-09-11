@@ -1,0 +1,1043 @@
+
+    <script type="text/javascript"><!--
+    function C(k){return(document.cookie.match('(^|; )'+k+'=([^;]*)')||0)[2]}
+    var pagetype, pagemode;
+    (function(){
+        var h = document.documentElement;
+        h.className = h.className.replace('no-js', 'js');
+        var b = document.body;
+        var bodyClassList = b.className.split(/\s+/);;
+        pagetype = bodyClassList[0]; // dangerous assumption
+        var fmt = C('cl_fmt');
+        if ( fmt === 'regular' || fmt === 'mobile' ) {
+            pagemode = fmt;
+        } else if (screen.width <= 480) {
+            pagemode = 'mobile';
+        } else {
+            pagemode = 'regular';
+        }
+        pagemode = pagemode === 'mobile' ? 'mobile' : 'desktop';
+        bodyClassList.push(pagemode);
+        if (C('hidesearch') === '1' && pagemode !== 'mobile') {
+            bodyClassList.push('hide-search');
+        }
+        var width = window.innerWidth || document.documentElement.clientWidth;
+        if (width > 1000) { bodyClassList.push('w1024'); }
+        if (typeof window.sectionBase !== 'undefined') {
+            var mode = (decodeURIComponent(C('cl_tocmode') || '').match(new RegExp(window.sectionBase + ':([^,]+)', 'i')) || {})[1] || window.defaultView;
+            if (mode) {
+                bodyClassList.push(mode);
+            }
+        }
+        b.className = bodyClassList.join(' ');
+    }());
+--></script>
+
+
+    <section class="page-container" id="page-top">
+        <div class="bglogo"></div>
+        <header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+<form id="breadcrumbform" class="breadcrumbs-form" method="get" action="/search/cpg" data-action="/search/###/cpg">
+    <input type="hidden" name="postedToday" value="1">
+<input type="hidden" name="is_paid" value="yes">
+
+    <ul class="breadcrumbs ">
+        <li class="crumb area">
+            
+            <span class="no-js">
+                <a href="/">new york</a>
+            </span>
+                <select id="areaAbb" class="js-only">
+                    <option value="newyork">new york</option>
+                        <option value="albany">albany, NY</option>
+                        <option value="allentown">allentown</option>
+                        <option value="altoona">altoona</option>
+                        <option value="annapolis">annapolis</option>
+                        <option value="baltimore">baltimore</option>
+                        <option value="binghamton">binghamton</option>
+                        <option value="boston">boston</option>
+                        <option value="capecod">cape cod</option>
+                        <option value="catskills">catskills</option>
+                        <option value="cnj">central NJ</option>
+                        <option value="chambersburg">cumberland val</option>
+                        <option value="delaware">delaware</option>
+                        <option value="newlondon">eastern CT</option>
+                        <option value="easternshore">eastern shore</option>
+                        <option value="martinsburg">eastern WV</option>
+                        <option value="elmira">elmira</option>
+                        <option value="fingerlakes">finger lakes</option>
+                        <option value="frederick">frederick</option>
+                        <option value="glensfalls">glens falls</option>
+                        <option value="harrisburg">harrisburg</option>
+                        <option value="hartford">hartford</option>
+                        <option value="hudsonvalley">hudson valley</option>
+                        <option value="ithaca">ithaca</option>
+                        <option value="jerseyshore">jersey shore</option>
+                        <option value="lancaster">lancaster, PA</option>
+                        <option value="longisland">long island</option>
+                        <option value="newhaven">new haven</option>
+                        <option value="newjersey">north jersey</option>
+                        <option value="nwct">northwest CT</option>
+                        <option value="oneonta">oneonta</option>
+                        <option value="philadelphia">philadelphia</option>
+                        <option value="poconos">poconos</option>
+                        <option value="reading">reading</option>
+                        <option value="providence">rhode island</option>
+                        <option value="scranton">scranton</option>
+                        <option value="southcoast">south coast</option>
+                        <option value="southjersey">south jersey</option>
+                        <option value="smd">southern MD</option>
+                        <option value="pennstate">state college</option>
+                        <option value="syracuse">syracuse</option>
+                        <option value="utica">utica</option>
+                        <option value="washingtondc">washington, DC</option>
+                        <option value="westernmass">western mass</option>
+                        <option value="williamsport">williamsport</option>
+                        <option value="worcester">worcester</option>
+                        <option value="york">york, PA</option>
+                </select>
+            <span class="breadcrumb-arrow">&gt;</span>
+        </li>
+        <li class="crumb subarea">
+            <select id="subArea">
+                <option value="" selected="">all new york</option>
+                <option value="brx">bronx</option>
+                <option value="brk">brooklyn</option>
+                <option value="fct">fairfield</option>
+                <option value="lgi">long island</option>
+                <option value="mnh">manhattan</option>
+                <option value="jsy">new jersey</option>
+                <option value="que">queens</option>
+                <option value="stn">staten island</option>
+                <option value="wch">westchester</option>
+            </select>
+            <span class="breadcrumb-arrow">&gt;</span>
+        </li>
+        <li class="crumb section">
+                    <select id="catAbb">
+                        <option value="ccc">community</option>
+                        <option value="eee">events</option>
+                        <option value="sss">for sale</option>
+                        <option value="ggg" selected="">gigs</option>
+                        <option value="hhh">housing</option>
+                        <option value="jjj">jobs</option>
+                        <option value="rrr">resumes</option>
+                        <option value="bbb">services</option>
+                    </select>
+                <span class="breadcrumb-arrow">&gt;</span>
+        </li>
+        <li class="crumb category">
+            <select id="subcatAbb" class="js-only">
+                <option value="ggg">all</option>
+                    <option value="cpg" selected="">computer gigs</option>
+                    <option value="crg">creative gigs</option>
+                    <option value="cwg">crew gigs</option>
+                    <option value="dmg">domestic gigs</option>
+                    <option value="evg">event gigs</option>
+                    <option value="lbg">labor gigs</option>
+                    <option value="tlg">talent gigs</option>
+                    <option value="wrg">writing gigs</option>
+            </select><span class="no-js">computer gigs</span>
+            <span class="breadcrumb-arrow">&gt;</span>
+        </li>
+        <li class="crumb no-js">
+            <input type="submit" value="go">
+        </li>
+    </ul>
+</form>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/nyc">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites off">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number">0</span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+          <form class="unfavform js-only" method="POST" action="/favorites">
+            <div class="to-banish-page">
+              <input type="hidden" class="lastLink" name="lastLink" value="//newyork.craigslist.org/search/cpg?is_paid=yes&amp;postedToday=1">
+              <input type="hidden" class="lastTitle" name="lastTitle" value="new york computer gigs  - craigslist">
+              <input type="hidden" class="unfaves" name="fl" value="dzM3am5saTo=">
+              <input type="hidden" name="uf" value="1">
+              <a href="#" class="to-banish-page-link">
+                <span class="icon icon-trash red" aria-hidden="true"></span>
+                <span class="banished_count">0</span>
+                <span class="discards-label"> hidden</span>
+              </a>
+            </div>
+          </form>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+
+
+new york            &gt;
+
+computer gigs
+
+</ul>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+
+
+        <form id="searchform" class="search-form" action="/search/cpg">
+            <div class="querybox">
+                
+                <div class="form-tab js-only"><span class="search-open" title="hide search">«</span><span class="search-closed" title="show search">»</span></div>
+                <input type="text" placeholder="search computer gigs" name="query" id="query" value="" autocorrect="off" class="flatinput ui-autocomplete-input" autocapitalize="off" autocomplete="off" data-autocomplete="search">
+
+                <button type="submit" class="searchbtn">
+                    <span class="icon icon-search" aria-hidden="true"></span>
+                    <span class="screen-reader-text">press to search craigslist</span>
+                </button>
+                    <div class="savealert">
+                        <a class="saveme" data-action="save" href="https://accounts.craigslist.org/login?rt=L&amp;rp=%2Fsavesearch%2Fsave%3FURL%3Dhttps%253A%252F%252Fnewyork%252Ecraigslist%252Eorg%252Fsearch%252Fcpg%253Fis%255Fpaid%253Dyes%2526postedToday%253D1" title="save this search">save search</a>
+                    </div>
+            </div>
+
+            <div class="search-options-container">
+    <h2 class="search-options-header linklike">
+        <div class="icon icon-toggle-gear" aria-hidden="true"></div>
+        options<span class="options-close">close</span>
+    </h2>
+    <input id="excats" type="hidden" name="excats">
+    <div class="search-options">
+        <div class="searchgroup categories">
+            <div class="cattitle">
+                  <a href="/search/cpg" title="clear all search parameters" class="reset">computer gigs</a>
+            </div>
+
+        </div>
+        <input type="hidden" name="userid" value="">
+
+
+              <input type="hidden" name="is_paid" id="is_paid" value="yes">
+
+                <ul class="searchgroup buttongroup remuneration">
+                    <li class="button ">
+                        <a href="/search/cpg?postedToday=1" data-val="">all</a>
+                    </li><li class="button sel">
+                        <a href="/search/cpg?is_paid=yes&amp;postedToday=1" data-val="yes">paid</a>
+                    </li><li class="button ">
+                        <a href="/search/cpg?is_paid=no&amp;postedToday=1" data-val="no">unpaid</a>
+                    </li>
+                </ul>
+
+
+        <div class="searchgroup">
+            <ul>
+    <li>
+       <label class="srchType">
+           <input type="checkbox" name="srchType" class="" value="T">
+           search titles only
+       </label>
+    </li>
+    <li>
+       <label class="hasPic">
+           <input type="checkbox" name="hasPic" class="autosubmit" value="1">
+           has image
+       </label>
+    </li>
+    <li>
+       <label class="postedToday">
+           <input type="checkbox" name="postedToday" class="autosubmit" value="1" checked="">
+           posted today
+       </label>
+    </li>
+    <li>
+       <label class="bundleDuplicates">
+           <input type="checkbox" name="bundleDuplicates" class="autosubmit" value="1">
+           bundle duplicates
+       </label>
+    </li>
+    <li>
+       <label class="searchNearby">
+           <input type="checkbox" name="searchNearby" class="" value="1">
+           include nearby areas
+       </label>
+    </li>
+</ul>
+
+                <ul class="js-only nearbyAreas ">
+                        <li class="nearbyZone nearbyZone_3">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_20" value="59" disabled="disabled">
+                            albany, NY <small>(alb)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_7">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_45" value="355" disabled="disabled">
+                            altoona-johnstown <small>(aoo)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_5">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_33" value="460" disabled="disabled">
+                            annapolis, MD <small>(anp)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_4">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_28" value="34" disabled="disabled">
+                            baltimore, MD <small>(bal)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_3">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_21" value="248" disabled="disabled">
+                            binghamton, NY <small>(bgm)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_5">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_35" value="4" disabled="disabled">
+                            boston <small>(bos)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_9">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_57" value="40" disabled="disabled">
+                            buffalo, NY <small>(buf)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_7">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_42" value="239" disabled="disabled">
+                            cape cod / islands <small>(cap)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_1">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_9" value="451" disabled="disabled">
+                            catskills <small>(cat)</small>
+                        </label>
+                        </li>
+                        <li class="">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_2" value="349" disabled="disabled">
+                            central NJ <small>(cnj)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_10">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_60" value="290" disabled="disabled">
+                            charlottesville, VA <small>(uva)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_9">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_59" value="452" disabled="disabled">
+                            chautauqua, NY <small>(chq)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_6">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_38" value="705" disabled="disabled">
+                            cumberland valley <small>(cbg)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_3">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_19" value="193" disabled="disabled">
+                            delaware <small>(dlw)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_2">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_15" value="281" disabled="disabled">
+                            eastern CT <small>(nlo)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_7">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_44" value="444" disabled="disabled">
+                            eastern panhandle <small>(ewv)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_4">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_29" value="328" disabled="disabled">
+                            eastern shore <small>(esh)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_5">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_30" value="453" disabled="disabled">
+                            elmira-corning <small>(elm)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_6">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_36" value="685" disabled="disabled">
+                            finger lakes, NY <small>(fgl)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_6">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_39" value="633" disabled="disabled">
+                            frederick, MD <small>(fdk)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_8">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_49" value="457" disabled="disabled">
+                            fredericksburg, VA <small>(ezf)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_5">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_34" value="686" disabled="disabled">
+                            glens falls, NY <small>(gfl)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_3">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_23" value="166" disabled="disabled">
+                            harrisburg, PA <small>(hrs)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_10">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_61" value="447" disabled="disabled">
+                            harrisonburg, VA <small>(shd)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_2">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_12" value="44" disabled="disabled">
+                            hartford, CT <small>(htf)</small>
+                        </label>
+                        </li>
+                        <li class="">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_4" value="249" disabled="disabled">
+                            hudson valley, NY <small>(hud)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_5">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_31" value="201" disabled="disabled">
+                            ithaca, NY <small>(ith)</small>
+                        </label>
+                        </li>
+                        <li class="">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_1" value="561" disabled="disabled">
+                            jersey shore <small>(jys)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_2">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_17" value="279" disabled="disabled">
+                            lancaster, PA <small>(lns)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_1">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_7" value="167" disabled="disabled">
+                            lehigh valley <small>(alt)</small>
+                        </label>
+                        </li>
+                        <li class="">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_3" value="250" disabled="disabled">
+                            long island, NY <small>(isp)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_7">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_46" value="198" disabled="disabled">
+                            new hampshire <small>(nhm)</small>
+                        </label>
+                        </li>
+                        <li class="">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_5" value="168" disabled="disabled">
+                            new haven, CT <small>(hvn)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_9">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_58" value="48" disabled="disabled">
+                            norfolk / hampton roads <small>(nfk)</small>
+                        </label>
+                        </li>
+                        <li class="">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_0" value="170" disabled="disabled">
+                            north jersey <small>(njy)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_1">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_10" value="354" disabled="disabled">
+                            northwest CT <small>(nct)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_3">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_18" value="684" disabled="disabled">
+                            oneonta, NY <small>(onh)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_1">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_8" value="17" disabled="disabled">
+                            philadelphia <small>(phi)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_9">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_54" value="338" disabled="disabled">
+                            plattsburgh-adirondacks <small>(plb)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_1">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_6" value="356" disabled="disabled">
+                            poconos <small>(poc)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_9">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_55" value="683" disabled="disabled">
+                            potsdam-canton-massena <small>(ptd)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_2">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_14" value="278" disabled="disabled">
+                            reading, PA <small>(rea)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_4">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_24" value="38" disabled="disabled">
+                            rhode island <small>(prv)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_9">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_56" value="60" disabled="disabled">
+                            richmond, VA <small>(ric)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_8">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_50" value="126" disabled="disabled">
+                            rochester, NY <small>(rcs)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_1">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_11" value="276" disabled="disabled">
+                            scranton / wilkes-barre <small>(avp)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_4">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_27" value="378" disabled="disabled">
+                            south coast, MA <small>(sma)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_2">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_13" value="286" disabled="disabled">
+                            south jersey <small>(snj)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_7">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_43" value="556" disabled="disabled">
+                            southern maryland <small>(smd)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_6">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_40" value="277" disabled="disabled">
+                            state college, PA <small>(psu)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_6">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_37" value="130" disabled="disabled">
+                            syracuse, NY <small>(syr)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_8">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_53" value="704" disabled="disabled">
+                            twin tiers NY/PA <small>(tts)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_5">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_32" value="247" disabled="disabled">
+                            utica-rome-oneida <small>(uti)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_8">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_52" value="93" disabled="disabled">
+                            vermont <small>(brl)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_6">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_41" value="10" disabled="disabled">
+                            washington, DC <small>(wdc)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_8">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_48" value="337" disabled="disabled">
+                            watertown, NY <small>(wtn)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_8">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_51" value="329" disabled="disabled">
+                            western maryland <small>(wmd)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_2">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_16" value="173" disabled="disabled">
+                            western massachusetts <small>(wma)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_4">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_26" value="463" disabled="disabled">
+                            williamsport, PA <small>(wpt)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_7">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_47" value="711" disabled="disabled">
+                            winchester, VA <small>(okv)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_4">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_25" value="240" disabled="disabled">
+                            worcester / central MA <small>(wor)</small>
+                        </label>
+                        </li>
+                        <li class="nearbyZone nearbyZone_3">
+                        <label class="nearby">
+                            <input type="checkbox" class="use-id nearbyArea" name="nearbyArea" id="nearbyArea_22" value="357" disabled="disabled">
+                            york, PA <small>(yrk)</small>
+                        </label>
+                        </li>
+
+                        <li>
+                        <span class="nextNearbyZone linklike" data-zone="1">
+                            + show <span id="nearbyNumber">6</span> more...
+                        </span>
+                        </li>
+                </ul>
+        </div>
+
+            <div class="searchgroup">
+                <span class="searchfieldlabel">miles from zip</span>
+                <input size="5" maxlength="5" inputmode="numeric" class="flatinput searchInput search_distance" placeholder="miles" name="search_distance" value="">
+                <input type="text" class="flatinput searchInput postal" placeholder="from zip" size="7" name="postal" value="">
+                <span class="icon icon-locate"></span>
+            </div>
+
+
+
+
+
+        
+
+        <div class="searchgroup resetsearch">
+            <a href="/search/cpg" title="clear all search parameters" class="reset linklike">reset</a>
+            <button type="submit" class="searchlink linklike">update search</button>
+        </div>
+
+    </div>
+</div>
+
+
+            <div class="search-legend">
+<div class="search-view js-only">
+    <div class="dropdown dropdown-icons dropdown-arrows dropdown-view" role="toolbar" aria-label="view options" aria-expanded="false">
+        <ul class="dropdown-list">
+            <li class="dropdown-item mode sel">
+                <button title="show results in a list" data-selection="list" id="listview">
+                    <span class="view-list icon"></span>list
+                </button>
+                <span class="toggle-arrow"></span>
+            </li>
+            <li class="dropdown-item mode">
+                <button title="show results in a list with thumbnail pictures" data-selection="pic" id="picview">
+                    <span class="view-thumb icon"></span>thumb
+                </button>
+                <span class="toggle-arrow"></span>
+            </li>
+            <li class="dropdown-item mode">
+                <button title="show results side-by-side with larger pictures" data-selection="grid" id="gridview">
+                    <span class="view-gallery icon"></span>gallery
+                </button>
+                <span class="toggle-arrow"></span>
+            </li>
+                <li class="dropdown-item mode">
+                    <button title="show results on a map" data-selection="map" id="mapview">
+                        <span class="view-map icon"></span>map
+                    </button>
+                    <span class="toggle-arrow"></span>
+                </li>
+        </ul>
+    </div>
+</div>
+                <div class="search-sort">
+    <div class="dropdown dropdown-sort " data-default-sort="date" role="toolbar" aria-label="sort options" aria-expanded="false">
+        <ul class="dropdown-list">
+
+            <li class="dropdown-item mode sel" aria-selected="true">
+                <a data-selection="date" title="show newest matches first" href="/search/cpg?sort=date&amp;is_paid=yes&amp;postedToday=1">newest <span class="toggle-arrow"></span></a>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+                <div class="paginator buttongroup firstpage lastpage">
+    <span class="resulttotal">
+        <span class="for-map">
+        displaying <span class="displaycountShow">...</span> posting
+        </span>
+    </span>
+    <span class="buttons">
+        <a href="/search/cpg?is_paid=yes&amp;postedToday=1" class="button first" title="first page">&lt;&lt;</a>
+        <span class="button first" title="first page">&lt;&lt;</span>
+        <a href="/search/cpg?is_paid=yes&amp;postedToday=1" class="button prev" title="previous page">&lt; prev</a>
+        <span class="button prev" title="previous page">&lt; prev</span>
+
+        <span class="button pagenum">
+            <span class="range">
+                <span class="rangeFrom">1</span>
+                -
+                <span class="rangeTo">1</span>
+            </span>
+            /
+            <span class="totalcount">1</span>
+        </span>
+
+        <a href="" class="button next" title="next page">next &gt; </a>
+        <span class="button next" title="next page"> next &gt; </span>
+    </span>
+</div>
+
+                
+            </div>
+            <div class="content" id="sortable-results">
+                <section class="favlistsection">
+                    <section class="favlistinfo">
+                    </section>
+                    <section class="banishlistinfo">
+                    </section>
+                </section>
+
+                    
+
+
+<div class="open-map-view-button">
+    <span>see in map view</span>
+</div>
+<div id="mapcontainer" data-arealat="40.714199" data-arealon="-74.006401">
+    <div id="noresult-overlay"></div>
+    <div id="noresult-text">
+        <span class="message">No mappable items found</span>
+    </div>
+    <div id="map" class="loading" style="height: 200px;">
+        <div class="close-full-screen-map-mode-button">close fullscreen</div>
+        <div class="close-map-view-button">close map</div>
+    </div>
+</div>
+
+                <ul class="rows">
+                             <li class="result-row" data-pid="6964533229">
+
+        <a href="https://newyork.craigslist.org/brk/cpg/d/brooklyn-helped-needed-with-seos/6964533229.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-25 17:19" title="Sun 25 Aug 05:19:19 PM">Aug 25</time>
+
+
+        <a href="https://newyork.craigslist.org/brk/cpg/d/brooklyn-helped-needed-with-seos/6964533229.html" data-id="6964533229" class="result-title hdrlnk">Helped Needed with SEOs</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="result-hood"> (Williamsburg)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+
+                    <h4 class="ban nearby"><span class="bantext">Few local results found. Here are some from nearby areas. Checking 'include nearby areas' will expand your search.</span></h4>
+
+                             <li class="result-row" data-pid="6964270780">
+
+        <a href="https://newjersey.craigslist.org/cpg/d/north-bergen-addwords-expert/6964270780.html" class="result-image gallery empty"></a>
+
+    <p class="result-info">
+        <span class="icon icon-star" role="button" title="save this post in your favorites list">
+            <span class="screen-reader-text">favorite this post</span>
+        </span>
+
+            <time class="result-date" datetime="2019-08-25 11:11" title="Sun 25 Aug 11:11:45 AM">Aug 25</time>
+
+
+        <a href="https://newjersey.craigslist.org/cpg/d/north-bergen-addwords-expert/6964270780.html" data-id="6964270780" class="result-title hdrlnk">💰💰💰 ADDWORDS EXPERT 💸💸💸</a>
+
+
+        <span class="result-meta">
+
+
+                <span class="nearby" title="north jersey">(njy &gt; North Bergen)</span>
+
+                <span class="result-tags">
+                </span>
+
+                <span class="banish icon icon-trash" role="button">
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+
+            <span class="unbanish icon icon-trash red" role="button" aria-hidden="true"></span>
+            <a href="#" class="restore-link">
+                <span class="restore-narrow-text">restore</span>
+                <span class="restore-wide-text">restore this posting</span>
+            </a>
+
+        </span>
+    </p>
+</li>
+
+                </ul>
+            </div>
+
+            <div class="search-legend bottom">
+                <div class="search-view">
+                    <span class="buttongroup"><a class="backtotop button" href="#page-top">^ back to top</a></span>
+                </div>
+                <div class="search-sort">
+                    <span class="buttongroup"><a class="backtotop button" href="#page-top">^ back to top</a></span>
+                </div>
+                <div class="paginator buttongroup firstpage lastpage">
+    <span class="resulttotal">
+        <span class="for-map">
+        displaying <span class="displaycountShow">...</span> posting
+        </span>
+    </span>
+    <span class="buttons">
+        <a href="/search/cpg?is_paid=yes&amp;postedToday=1" class="button first" title="first page">&lt;&lt;</a>
+        <span class="button first" title="first page">&lt;&lt;</span>
+        <a href="/search/cpg?is_paid=yes&amp;postedToday=1" class="button prev" title="previous page">&lt; prev</a>
+        <span class="button prev" title="previous page">&lt; prev</span>
+
+        <span class="button pagenum">
+            <span class="range">
+                <span class="rangeFrom">1</span>
+                -
+                <span class="rangeTo">1</span>
+            </span>
+            /
+            <span class="totalcount">1</span>
+        </span>
+
+        <a href="" class="button next" title="next page">next &gt; </a>
+        <span class="button next" title="next page"> next &gt; </span>
+    </span>
+</div>
+
+            </div>
+
+            <section class="blurbs">
+                
+            </section>
+
+            <div id="floater">
+                <img class="loading" src="//www.craigslist.org/images/animated-spinny.gif" alt="">
+                <img class="payload" src="//www.craigslist.org/images/animated-spinny.gif" alt="">
+            </div>
+        </form>
+
+
+<div class="slidemessage">
+    <span class="fave">
+        <span class="star"></span>
+        favorited
+    </span>
+    <span class="unfave">
+        <span class="star"></span>
+        no longer favorited
+    </span>
+    <span class="hide">
+        <span class="trash"></span>
+        hidden
+    </span>
+    <span class="unhide">
+        <span class="trash"></span>
+        no longer hidden
+    </span>
+</div>
+
+<footer>
+        <span class="rss">
+            <a class="l" href="https://newyork.craigslist.org/search/cpg?format=rss&amp;is_paid=yes&amp;postedToday=1">RSS</a>
+            <a href="https://www.craigslist.org/about/rss">(?)</a><br>
+        </span>
+    <ul class="clfooter">
+        <li>©  <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl jobs</a></li>
+        <li><a href="//www.craigslist.org/about/terms.of.use.en-us">terms</a><sup class="neu">new</sup></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li class="fsel desktop linklike" data-mode="mobile">mobile</li>
+        <li class="fsel mobile linklike" data-mode="regular">desktop</li>
+    </ul>
+</footer>
+    </section>
+
+    <template id="gallerycarousel">
+        <div class="slider-info"></div><div class="slider-back arrow">&lt;</div><div class="slider-forward arrow">&gt;</div>
+    </template>
+
+    <script src="//www.craigslist.org/js/general-concat.min.js?v=e3e3b2eaa3287fea87becfed97e0025a" type="text/javascript"></script>
+
+    <script type="text/javascript"><!--
+        var iframe = document.createElement('iframe');
+        iframe.style.display = 'none';
+        iframe.src = '//www.' + CL.url.baseDomain + '/static/localstorage.html?v=c681e870c9c4f8f545b36f0180f755cf';
+        document.body.insertBefore(iframe, null);
+    --></script><iframe src="//www.craigslist.org/static/localstorage.html?v=c681e870c9c4f8f545b36f0180f755cf" style="display: none;"></iframe>
+<script type="text/template" id="clustertemplate">
+    <li class="posting {visited}" data-pid="{PostingID}">
+        <img src="{ImageThumb}">
+        <div class="housing_bubble_banner">
+            <span class="{hasPrice}price">{currencySymbol}{Ask}</span>
+            <span class="bedrooms">{BedroomsContent}</span>
+            <span class="postingtitle"><a>{PostingTitle}</a></span>
+            <span class="js-only map-banish-unbanish" data-pid="{PostingID}">
+                <span class="banish">
+                    <span class="icon icon-trash" role="button"></span>
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+                <span class="unbanish">
+                    <span class="icon icon-trash red" role="button"></span>
+                    unhide
+                </span>
+            </span>
+        </div>
+    </li>
+</script>
+<script type="text/template" id="postingtemplate">
+    <div class="viewcontainer pics loading">
+        <div class="backtolist">
+            &laquo; back to posting list
+        </div>
+        <div class="title">
+            <span class="icon icon-star" data-pid="{PostingID}" role="button">
+                <span class="screen-reader-text">favorite this post</span>
+            </span>
+            <span class="postingtitle">
+                <a href="{PostingURL}" target="_blank">{PostingTitle}</a>
+            </span>
+            <div>
+                <span class="{hasPrice}price">{currencySymbol}{Ask}</span>
+                <span class="bedrooms">{BedroomsContent}</span>
+                <span class="js-only map-banish-unbanish" data-pid="{PostingID}">
+                    <span class="banish">
+                        <span class="icon icon-trash" role="button"></span>
+                        <span class="screen-reader-text">hide this posting</span>
+                    </span>
+                    <span class="unbanish">
+                        <span class="icon icon-trash red" role="button"></span>
+                        <span class="screen-reader-text">unhide</span>
+                        unhide
+                    </span>
+                </span>
+            </div>
+        </div>
+        <hr style="clear:both">
+        <div class="picscontainer gallery">
+            <span class="slider-back arrow">&lt;</span><span class="slider-info"></span><span class="slider-forward arrow">&gt;</span>
+            <div class="swipe">
+                <div class="swipe-wrap">
+                    <img class="loading" src="//www.craigslist.org/images/animated-spinny.gif" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="infocontainer"></div>
+        <hr style="clear:both">
+        <div class="timecontainer"></div>
+        <a class="viewpostinglink" href="{PostingURL}" target="_blank">view posting</a>
+        <div class="contenttoggle">
+            <a class="moreinfo">more info</a>
+            <a class="showpics">show images</a>
+        </div>
+    </div>
+</script>
+<script type="text/template" id="popuptemplate">
+    <div id="mapbubble" class="posting">
+        <ul id="clusterbubble"></ul>
+        <div id="postbubble"></div>
+    </div>
+</script>
+<script src="//www.craigslist.org/js/leaflet-concat.min.js?v=a4b26f53b2fdb1a4509dadbf02706b2a" type="text/javascript"></script>
+
+    <script src="//www.craigslist.org/js/search-concat.min.js?v=e3a0242ff886c1f0c65773bca8b36d66" type="text/javascript"></script><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span>
+
+    <script src="//www.craigslist.org/js/postings-concat.min.js?v=2e77044a84c350f378d73f8eeb6989bb" type="text/javascript"></script>
+
+
+
